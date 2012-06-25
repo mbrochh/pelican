@@ -1,3 +1,12 @@
+About this fork
+###############
+
+I am keeping this fork in order to maintain some slight changes to the
+notmyidea theme. I will make sure to keep the master branch in sync with
+the original master branch and rebase often into this branch. If anyone knows
+a better solution for maintaining a few changes, please let me know.
+
+
 Pelican
 =======
 

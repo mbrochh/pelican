@@ -21,6 +21,8 @@
         <!--[if lt IE 7]>
                 <link rel="stylesheet" type="text/css" media="all" href="{{ SITEURL }}/css/ie6.css"/><![endif]-->
 
+        {% include "analytics.html" %}
+        {% include "flattr.js.html" %}
 </head>
 
 <body id="index" class="home">
@@ -79,7 +81,6 @@
                 <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
         </footer><!-- /#contentinfo -->
 
-{% include 'analytics.html' %}
 {% include 'piwik.html' %}
 {% include 'disqus_script.html' %}
 </body>
